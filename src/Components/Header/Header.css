@@ -1,0 +1,45 @@
+h1{
+    color: white;
+    height: 20px;
+    text-shadow: rgb(39, 194, 255) 0 0 10px;
+    font-family: 'Rock Salt', cursive;
+}
+h3{
+    color: white;
+    text-shadow: rgb(39, 194, 255) 0 0 10px;
+    font-family: 'Rock Salt', cursive;
+}
+.header{
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    background-image: url("../images/headerBG2.jpg");
+    box-shadow: 10px 5px 15px #033958;
+}
+.iconViral {
+    height: 120px;
+    border-radius: 30%;
+    margin-left: 20px;
+    width: auto;
+    box-shadow: 0px 0px 10px white
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.goingViral{
+    height: 120px;
+    width: auto;
+    margin-right: 20px;
+    border-radius: 20%;
+    border: solid 7px transparent;
+    box-shadow: 0px 0px 15px white;
+
+}

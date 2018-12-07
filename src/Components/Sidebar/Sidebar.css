@@ -1,0 +1,183 @@
+.sidebar{
+    width: 25vw;
+    height: 80vh;
+    background-color: rgb(73, 73, 73);
+    position: sticky;
+    top: 20vh;
+    background-image: url('../images/sideBarBG.jpg');
+    background-size: cover;
+    box-shadow: 10px 5px 15px #033958;
+    
+  }
+
+.userInfo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 4%;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-top: 3%;
+    border: solid 2px gray;
+    background-color: rgb(3, 57, 88);
+    box-shadow: 5px 5px 10px rgb(8, 141, 182);
+
+}
+
+.leftSideUser{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding-left: 20px;
+    
+}
+#getQuoteButtonAndDisplay{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.userImage{
+    margin-top: 7px;
+    margin-bottom: 10px;
+    width: 100px;
+}
+.imageButton{
+    margin-left: 5px;
+}
+.rightSideUser{
+    width: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    padding-left: 1vw;
+
+}
+.userInput{
+    margin-bottom: 20px;
+    font-size: 16px;
+    width: 140px;
+}
+/* #getQuoteButtonAndDisplay{
+    height:50%;
+} */
+.bottomUser{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+/* .quoteButton{
+    height: 20px;
+    width: 40px;
+} */
+button{
+    background-color: #033958;
+    color: #89C0C7;
+    border: solid 2px gray;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(8, 141, 182);
+}
+.ronQuote{
+    color: white;
+    font-size: 12px;
+    margin: 10px;
+    margin-top: 10px;
+    /* background-color: gray; */
+    padding: 10px;
+}
+.youtubeSearch{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    height: 25vh;
+    width: 90%;
+    margin-left: 4%;
+    border: solid 2px gray;
+    background-color: rgb(3, 57, 88);
+    box-shadow: 5px 5px 10px rgb(8, 141, 182);
+}
+#searchBar{
+    background-color: #89C0C7;
+    height: 35px;
+    width: 175px;
+    display: flex;
+    margin-top: 7.5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.textBox, #textBox{
+    height: 20px;
+    background-color: #89C0C7;
+    margin-left: 5px;
+    border: none;
+    color: #033958;
+    font-size: 12px;
+}
+.searchButton{
+    border-radius: 50%;
+    border: solid 1px #E74A43;
+    height: 30px;
+    width: 30px;
+    top:0;
+    margin-left: 5px;
+    position: relative;
+    background-color: transparent; 
+}
+.videoResult{
+    margin-top: 20px;
+    width: 90%;
+    height: 70%;
+}
+.searchIcon{
+    height: 100%;
+    width: auto;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+#addMessageDiv{
+    display: flex;
+    height: 60px;
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 4%;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #033958;
+    border: solid 2px gray;
+    box-shadow: 5px 5px 10px rgb(8, 141, 182);
+}
+.addMessageBox, #addMessageBox{
+    height: 20px;
+    width: 200px;
+    background-color: #89C0C7;
+    margin-left: 5px;
+    border: none;
+    color: #033958;
+    font-size: 12px;
+}
+#createButton, .createButton{
+    background-color: #033958;
+    color: #89C0C7;
+    font-family: 'Rock Salt', cursive;
+    font-size: 16px;
+    height: 40px;
+    width: 90.75%;
+    margin-left: 4%;
+    margin-top: 10px;
+    border: solid 2px gray;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(8, 141, 182);
+}
